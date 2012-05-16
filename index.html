@@ -1,0 +1,86 @@
+<!-- outputhead -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NinuXoo! - Ninux.org</title>
+	
+	<base href="./" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Ninux.org Community - the Ninux Software Team" />
+	<meta name="description" content="Ninux.org Hot Spot Splash Site" />
+	
+	<link rel="shortcut icon" href="common/media/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="common/css/main.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="common/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+	
+	});
+	</script>
+</head>
+<body>
+	<div id="top_menu">
+		<table>
+			<tr>
+				<td>
+					<ul>
+						<li><a href="cgi-bin/new_files.cgi" title="Nuovi files indicizzati">Novit&agrave;</a></li>
+						<li><a href="cgi-bin/browse_share.cgi" title="Esplora i files i condivisione">Condivisioni</a></li>
+						<li><a href="http://10.168.177.178:8888/" title="Ascolta la musica in rete">Juke Box</a></li>
+						<li><a href="cgi-bin/proxy_wiki.cgi?url=Elenco_Telefonico_rete_VoIP_di_ninux.org" title="Elenco telefonico"><acronym title="Voice over IP">VoIP</acronym></a></li>
+						<li><a href="http://10.168.43.127/meteo/" title="Visualizza dati meteo in tempo reale">Meteo Roma</a></li>
+						<li class="separator">&nbsp;</li>
+						<li><a href="http://blog.ninux.org/" title="Vai al nostro Blog">Blog</a></li>
+						<li><a href="http://wiki.ninux.org/" title="Vai al nostro Wiki">Wiki</a></li>
+					</ul>
+				</td>
+				<td>
+					<ul id="second_menu">
+						<li><a href="http://10.162.0.85/" title="Controlla la posta">Posta</a></li>
+					</ul>
+				</td>
+			</tr>
+			<tr><td>&nbsp;</td></tr>
+		</table>
+	</div>
+	<div id="main_container">
+		<div id="main_header">
+			<table>
+				<tr>
+					<td>
+						<a href="javascript:void(0);" onclick="load_content('home');">
+							<img src="common/media/img/logo.png" alt="Logo Ninuxoo" />
+						</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="container">
+			<div id="content">
+				<table id="main_search" cellspacing="0" cellpadding="0">
+					<tr>
+						<td>
+							<form action="cgi-bin/ninuxoo.cgi" method="get">
+								<input type="search" value="" placeholder="Cerca in Ninuxoo" name="q">
+								<input type="submit" value="" style="display: none;">
+							</form>
+						</td>
+						<td>
+							<a href="Ricerca_avanzata" title="Ricerca avanzata"></a>
+						</td>
+					</tr>
+				</table>
+				<div id="page_content_main">
+					<div class="resstats">%d files indicizzati su %d <a href="cgi-bin/browse_share.cgi" title="Esplora i files i condivisione">Server</a></div>
+				</div>
+			</div>
+			<!-- end outputhead -->
+			<!-- outputtail -->
+			<div id="footer">
+				Powered by Ninux Community ~ the Ninux Software &amp; Communication Team :: used icons made by <a href="http://www.picol.org/" target="_blank" title="PIctorial COmmunication Language - Richiede inoltro a Internet">Picol project</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<!-- end outputtail -->

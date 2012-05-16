@@ -16,7 +16,9 @@ html {
 	display: table;
 }
 body {
-	background: url("../media/img/bg.png") left top repeat-x;
+	background-image: url("../media/img/search_500_808080_09.png"), url("../media/img/bg.png");
+	background-position: right 18px, left top;
+	background-repeat: no-repeat, repeat-x;
 	margin: 0 auto;
 	font-family: verdana, geneva, sans-serif;
 	font-size: 12px;
@@ -257,7 +259,6 @@ td {
 	padding: 0 30px;
 }
 #container {
-	background-image: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75) 15px);
 	font-family: "ubuntu";
 	text-align: justify;
 	margin-top: -18px;

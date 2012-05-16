@@ -488,7 +488,7 @@ zoombox = {
 			else if(zoombox.filtreMP3.test(url)){
 				zoombox.width=281;
 				zoombox.height=78;
-				content ='<object type="application/x-shockwave-flash" data="'+zoombox.MP3Player+'?songURL='+url+'&songName=' + zoombox.title +'" width="'+zoombox.width+'" height="'+zoombox.height+'">';
+				content ='<object type="application/x-shockwave-flash" data="'+zoombox.MP3Player+'?songName=' + zoombox.title +'&songURL='+url+'" width="'+zoombox.width+'" height="'+zoombox.height+'">';
 				content+='<param name="movie" value="'+zoombox.MP3Player+'?songURL='+url+'&songName=' + zoombox.title +'" /><param name="wmode" value="opaque" /></object>';
 			}		
 			

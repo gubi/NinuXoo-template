@@ -53,7 +53,7 @@ $(document).ready(function() {
 			}
 		}
 	});
-	$("ul:not(.filetree) > li > *[title]").qtip({
+	$("ul:not(.filetree) > li > *[title], a.show_resource_btn[title], a.copy_btn[title]").qtip({
 		style: {
 			border: {
 				width: 2,
